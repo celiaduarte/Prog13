@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Variáveis e operações em Javascript</h1>
+    <script>
+
+var nome="Ines"; 
+document.write(nome+"<br>");
+var nome="Freitas"; 
+document.write(nome+"<br>");
+nome="Figueiredo";
+document.write(nome+"<br>");
+
+let nome1="Ines";
+document.write(nome1+"<br>");
+let nome2="Figueiredo";
+document.write(nome2+"<br>");
+
+const nome3="Ines";
+document.write(nome3+"<br>");
+const nome4="Ines";
+document.write(nome4+"<br>");
+document.write(nome1+" "+nome2+" "+nome+"<br>");
+
+const num1=parseInt(prompt("Escreva um número qualquer: "));
+const num2=parseInt(prompt("Escreva outro número"));
+let total=num1+num2;
+document.write("Total ="+total+"<br>");
+document.write("Total de "+num1+" com"+num2+" = "+(num1+num2)+"<br>");
+document.write(num1+num2);
+document.write("<br> os doces \"D \'Avó\"");
+const verdadeiro=true;
+const falso=false;
+
+const aluno=prompt(" Insira o nome do aluno");
+const nota1=parseFloat(prompt("Insira a nota 1:"));
+const nota2=parseFloat(prompt("Insira a nota 2:"));
+const nota3=parseFloat(prompt("Insira a nota 3:"));
+let media= (nota1+nota2+nota3)/3;
+if (media >=9.5)
+         document.write("Aluno aprovado com" + media+ "valores");
+
+</script>
+</body>
+</html>
